@@ -1,0 +1,186 @@
+:root {
+	--num-nav-items: 4;
+	--margin-side: 20vw;
+	font-size: 1.2vw;
+	line-height: 1.5;
+}
+
+h1,
+h3,
+h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p,
+ul {
+	margin: 0;
+	padding-bottom: 1rem;
+}
+
+ul {
+	padding-left: 2rem;
+}
+
+a {
+	text-decoration: none;
+	color: #0088ff;
+}
+
+c{
+	text-decoration: none;
+	color: #f0f0f0;
+}
+
+a:hover {
+	color: #0000ff;
+}
+
+body {
+	margin: 0;
+	background-color: #c2dcf2;
+}
+
+header h1,
+header h4,
+nav#header ul,
+main,
+footer h4,
+footer p {
+	margin-left: var(--margin-side);
+	margin-right: var(--margin-side);
+}
+
+header {
+	padding-top: 4rem;
+	padding-bottom: 12rem;
+	width: 100%;
+	background: url(../img/miyajima.jpg) right center/cover;
+}
+
+nav#header {
+	background-color: #f2ede4;
+}
+
+nav#header ul {
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+nav#header ul li a {
+	display: block;
+	width: calc((100vw - 2 * var(--margin-side)) / var(--num-nav-items));
+	padding-top: calc(1rem / 3);
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+}
+
+nav#header ul li a:hover {
+	color: #ffffff;
+}
+
+main {
+	padding-top: 1rem;
+        color: #000000;
+}
+
+section {
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+
+
+footer {
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+	background-color: #444444;
+	color: #000000;
+}
+
+footer a {
+	color: #fc9d65;
+}
+
+footer a:hover {
+	color: #fde3d3;
+}
+
+img.logo {
+	width: 6rem;
+	margin-left: 2rem;
+}
+
+nav#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+img.to_top {
+	padding: 0.5rem;
+	width: 3rem;
+}
+
+@media screen and (max-width:480px) {
+
+	:root {
+		--margin-side: 10vw;
+		font-size: 3vw;
+	}
+
+}
+
+
+
+/*メイン画像
+-------------------------------------*/
+.mainimg img {
+	width: 100vw;
+}
+
+
+/*フッター
+-------------------------------------*/
+footer {
+    background-color: var(--back-color);
+    padding: 5rem 0;
+}
+footer h5 {
+    border-bottom: 3px solid var(--border-color);
+}
+
+/*コピーライト
+-------------------------------------*/
+.copyright {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: var(--white-color);
+}
+.copyright a {
+    color: var(--base-color);
+    text-decoration: none;
+	display: inline-block;
+}
+
+/*ページトップへ戻るボタン
+-------------------------------------*/
+#pagetop {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+#pagetop a {
+    display: block;
+    background-color: var(--base-color);
+    color: var(--white-color);
+    width: 50px;
+    padding: 10px 5px;
+    text-align: center;
+}
+#pagetop a:hover {
+    background-color: var(--link-color);
+}
