@@ -85,7 +85,7 @@ nav#header ul li a {
   transition: background-color 0.2s, color 0.2s, transform 0.2s;
   
   @media screen and (max-width:480px) {
-        width: calc((100vw - 4 * var(--margin-side)) / var(--num-nav-items));
+        width: calc((100vw - 3 * var(--margin-side)) / var(--num-nav-items));
   }
 }
 
