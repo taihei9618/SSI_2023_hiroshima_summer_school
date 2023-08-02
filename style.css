@@ -36,7 +36,7 @@ c{
 }
 
 a:hover {
-	color: #4169e1;
+	color: #2D5585;
 }
 
 body {
@@ -85,14 +85,14 @@ nav#header ul li a {
   transition: background-color 0.2s, color 0.2s, transform 0.2s;
   
   @media screen and (max-width:480px) {
-      width: calc((100vw - 3.5 * var(--margin-side)) / var(--num-nav-items));
+      width: calc((100vw - 3.7 * var(--margin-side)) / var(--num-nav-items));
       font-size: 2vw;
   }
 }
 
 nav#header ul li a:hover {
   background-color: #ffffff;
-  color: #4169e1;
+  color: #2D5585;
   transform: scale(1.1);
 }
 
