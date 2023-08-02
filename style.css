@@ -125,7 +125,7 @@ img.to_top {
 @media screen and (max-width:480px) {
 
 	:root {
-		--margin-side: 5vw;
+		--margin-side: 10vw;
 		font-size: 1.5vw;
 	}
 
