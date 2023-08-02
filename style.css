@@ -85,7 +85,7 @@ nav#header ul li a {
   transition: background-color 0.2s, color 0.2s, transform 0.2s;
   
   @media screen and (max-width:480px) {
-        width: calc((100vw - 2 * var(--margin-side)) / var(--num-nav-items));
+        width: calc((100vw - 2.5 * var(--margin-side)) / var(--num-nav-items));
   }
 }
 
@@ -127,7 +127,7 @@ img.to_top {
 
 	:root {
 		--margin-side: 5vw;
-		font-size: 3vw;
+		font-size: 2.6vw;
 	}
 
 }
