@@ -83,7 +83,10 @@ nav#header ul li a {
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.2s, color 0.2s, transform 0.2s;
-  /*font-size: 18px;*/
+  
+  @media screen and (max-width:480px) {
+        width: calc((100vw - 4 * var(--margin-side)) / var(--num-nav-items));
+  }
 }
 
 nav#header ul li a:hover {
@@ -124,7 +127,7 @@ img.to_top {
 
 	:root {
 		--margin-side: 10vw;
-		font-size: 2vw;
+		font-size: 3vw;
 	}
 
 }
