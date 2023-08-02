@@ -1,21 +1,26 @@
 :root {
-	--num-nav-items: 4;
+	--num-nav-items: 5;
 	--margin-side: 20vw;
 	font-size: 1.2vw;
 	line-height: 1.5;
 }
 
-h1,
+h1{
+        font-size: 32px;
+}
 h3,
 h4 {
 	margin-top: 0;
 	margin-bottom: 0;
+	font-size: 20px;
 }
 
 p,
 ul {
 	margin: 0;
 	padding-bottom: 1rem;
+	font-size: 18px
+	
 }
 
 ul {
@@ -33,7 +38,7 @@ c{
 }
 
 a:hover {
-	color: #0000ff;
+	color: #4169e1;
 }
 
 body {
@@ -53,13 +58,13 @@ footer p {
 
 header {
 	padding-top: 4rem;
-	padding-bottom: 12rem;
+	padding-bottom: 5rem;
 	width: 100%;
 	background: url(img/miyajima.jpg) right center/cover;
 }
 
 nav#header {
-	background-color: #f2ede4;
+	background-color: #f0f8ff;
 }
 
 nav#header ul {
@@ -69,16 +74,24 @@ nav#header ul {
 }
 
 nav#header ul li a {
-	display: block;
-	width: calc((100vw - 2 * var(--margin-side)) / var(--num-nav-items));
-	padding-top: calc(1rem / 3);
-	text-align: center;
-	font-weight: bold;
-	color: #000000;
+  display: block;
+  width: calc((100vw - 2 * var(--margin-side)) / var(--num-nav-items));
+  padding-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #2D5585;
+  border: 4px groove #e6e6fa;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s, transform 0.2s;
+  font-size: 18px;
 }
 
 nav#header ul li a:hover {
-	color: #0000ff;
+  background-color: #ffffff;
+  color: #4169e1;
+  transform: scale(1.1);
 }
 
 main {
