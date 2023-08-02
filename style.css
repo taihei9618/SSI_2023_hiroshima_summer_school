@@ -73,7 +73,7 @@ nav#header ul {
 
 nav#header ul li a {
   display: block;
-  width: calc((100vw - 2 * var(--margin-side)) / var(--num-nav-items));
+  width: calc((5 * var(--margin-side) - 2 * var(--margin-side)) / var(--num-nav-items));
   padding-top: 15px;
   text-align: center;
   font-weight: bold;
