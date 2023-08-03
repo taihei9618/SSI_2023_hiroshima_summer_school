@@ -86,7 +86,8 @@ nav#header ul li a {
   
   @media screen and (max-width:480px) {
       width: calc((100vw - 3 * var(--margin-side)) / var(--num-nav-items));
-      font-size: 1.5vw;
+      font-size: 1.6vw;
+      padding-top: 10px;
   }
 }
 
