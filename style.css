@@ -79,7 +79,7 @@ nav#header ul li a {
   box-sizing: border-box;
   background-color: #2D5585;
   border: 4px groove #e6e6fa;
-  border-radius: 16px;
+  border-radius: 17px;
   text-decoration: none;
   transition: background-color 0.2s, color 0.2s, transform 0.2s;
 }
